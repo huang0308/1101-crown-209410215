@@ -10,9 +10,9 @@ const pool = new Pool({
     connectionString: isProduction ? process.env.DATABASE_URL :`postgresql://postgres:0000@localhost:5432/crown15`
 })
 
-pool.query('SELECT * from category_15', (err, res) => {
-    console.log(JSON.stringift(err, res));
-    pool.end();
-});
+//pool.query('SELECT * from category_15', (err, res) => {
+//    console.log(JSON.stringift(err, res));
+//    pool.end();
+//});
 
 module.exports = pool;
