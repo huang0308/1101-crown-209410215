@@ -1,6 +1,6 @@
 const db = require('../utils/database');
 
-const category_15 = class Category_15 {
+const Category_15 = class Category_15 {
     constructor(id, name, size, remote_url, local_url, link_url){
         this.id = is;
         this.name = name;
